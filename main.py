@@ -33,11 +33,11 @@ def speak(text):
     os.remove("temp.mp3")
 
 
-news_API_KEY="56fcaaede0d84e98a96e078a250422ae"
+news_API_KEY="your news api key"
 
 def geminiProcess(command):
     # Set the API endpoint and your API key
-    url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyATjzBlxzDeD7d3aMH7giduu6bNMVC8wrQ'
+    url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=your gemini api key'
     headers = {
     'Content-Type': 'application/json',
     }
